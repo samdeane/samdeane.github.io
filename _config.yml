@@ -1,0 +1,53 @@
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
+
+# - markdown: kramdown
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+title: "Sam Deane"
+tagline: ""
+description: "Follow <a href=\"https://micro.blog/samdeane\">@samdeane on Micro.blog</a>."
+credits: "Follow <a href=\"https://micro.blog/samdeane\">@samdeane on Micro.blog</a>."
+baseurl: ""
+url: "https://microblog.bornsleepy.com"
+markdown: "kramdown"
+username: "samdeane"
+microblog_user: "samdeane"
+permalink: "/:year/:month/:day/:title.html"
+relative_permalinks: false
+author: "Sam Deane"
+name: "Sam Deane"
+gravatar_hash: "eb593ea546c75985f2697d8a0a8bc4b9"
+avatar: "https://micro.blog/samdeane/avatar.jpg"
+full_name: "Sam Deane"
+bio: ""
+twitter_username: "samdeane"
+github_username: "samdeane"
+instagram_username: "samdeane.bornsleepy"
+paginate: 20
+paginate_path: "/page/:num/"
+timezone: "WET"
+site_id: "778"
+gems: ["jekyll-paginate"]
+itunes_category: "Society & Culture"
+itunes_subcategory: "Personal Journals"
+itunes_author: "Sam Deane"
