@@ -4,4 +4,8 @@ title: About
 permalink: /about/
 order: 0
 ---
-I created Micro.blog. I'm a co-host of the Core Intuition podcast.
+Indie developer at Elegant Chaos. 
+
+Board trustee at An Lanntair.
+
+Former Sketch developer.
