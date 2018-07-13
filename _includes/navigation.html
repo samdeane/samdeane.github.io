@@ -6,8 +6,11 @@
 	{% assign sorted_pages = site.pages | sort: "order" %}
 	{% for page in sorted_pages %}
 		{% if page.title %}
+        {% if page.nonav %}
+        {% else %}
 			<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 		{% endif %}
+        {% endif %}
 	{% endfor %}
 
   <a class="cta" href="https://micro.blog/{{ site.microblog_user }}" rel="me">Also on Micro.blog</a>
