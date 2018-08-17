@@ -48,7 +48,11 @@ paginate_path: "/page/:num/"
 timezone: "WET"
 site_id: "778"
 gems: ["jekyll-paginate"]
+itunes_description: "Indie developer at Elegant Chaos.
+Board trustee at An Lanntair.
+Former Sketch developer. "
 itunes_category: "Society & Culture"
 itunes_subcategory: "Personal Journals"
 itunes_author: "Sam Deane"
+itunes_email: ""
 podcast: false
