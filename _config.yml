@@ -45,7 +45,7 @@ github_username: "samdeane"
 instagram_username: "samdeane.bornsleepy"
 paginate: 20
 paginate_path: "/page/:num/"
-timezone: "WET"
+timezone: "Zulu"
 site_id: "778"
 gems: ["jekyll-paginate"]
 itunes_description: "Indie developer at Elegant Chaos.
